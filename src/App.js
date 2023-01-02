@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "./components/Header"
 
 function App() {
   return (
     <div className="App">
-      <h1 className="italic text-red-700">URL APP</h1>
+      <Header />
     </div>
   );
 }
