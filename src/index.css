@@ -20,5 +20,5 @@ li {
 }
 
 .max-width{
-  @apply px-5 lg:max-w-5xl lg:mx-auto xl:max-w-6xl 2xl:px-0;
+  @apply px-7 lg:max-w-5xl lg:mx-auto xl:max-w-6xl 2xl:px-0;
 }

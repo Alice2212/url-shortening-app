@@ -8,67 +8,69 @@ import instagram from "../assets/images/icon-instagram.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#393644] py-10 lg:py-20">
-        <div className="max-width grid grid-cols-1 gap-5">
+      <footer className="bg-[#393644] py-10 lg:py-20 mx-auto">
+        <div className="max-width flex justify-between flex-wrap gap-6 text-center lg:text-left m-auto">
           {/* footer logo */}
           <article>
             <img src={footerLogo} alt="footer-logo" />
           </article>
 
           {/* first links */}
-          <article>
-            <h3 className="text-white tracking-wide text-xl font-bold">
-              Features
-            </h3>
-            <ul>
-              <li className="text-slate-200 text-sm mt-1">Link Shortening</li>
-              <li className="text-slate-200 text-sm mt-1">Branded Links</li>
-              <li className="text-slate-200 text-sm mt-1">Analytics</li>
-            </ul>
-          </article>
+          <div className="flex flex-wrap lg:gap-28 gap-6 md:gap-12 ">
+            <article>
+              <h3 className="text-white tracking-wide text-xl font-bold">
+                Features
+              </h3>
+              <ul className="text-center lg:text-left">
+                <li className="text-slate-200 text-sm mt-1">Link Shortening</li>
+                <li className="text-slate-200 text-sm mt-1">Branded Links</li>
+                <li className="text-slate-200 text-sm mt-1">Analytics</li>
+              </ul>
+            </article>
 
-          {/* second links */}
-          <article>
-            <h3 className="text-white tracking-wide text-xl font-bold">
-              Resources
-            </h3>
-            <ul>
-              <li className="text-slate-200 text-sm mt-1">Blog</li>
-              <li className="text-slate-200 text-sm mt-1">Developers</li>
-              <li className="text-slate-200 text-sm mt-1">Support</li>
-            </ul>
-          </article>
+            {/* second links */}
+            <article>
+              <h3 className="text-white tracking-wide text-xl font-bold">
+                Resources
+              </h3>
+              <ul className="text-center lg:text-left">
+                <li className="text-slate-200 text-sm mt-1">Blog</li>
+                <li className="text-slate-200 text-sm mt-1">Developers</li>
+                <li className="text-slate-200 text-sm mt-1">Support</li>
+              </ul>
+            </article>
 
-          {/* third links */}
-          <article>
-            <h3 className="text-white tracking-wide text-xl font-bold">
-              Company
-            </h3>
-            <ul>
-              <li className="text-slate-200 text-sm mt-1">About</li>
-              <li className="text-slate-200 text-sm mt-1">Our Teams</li>
-              <li className="text-slate-200 text-sm mt-1">Careers</li>
-              <li className="text-slate-200 text-sm mt-1">Contact</li>
-            </ul>
-          </article>
+            {/* third links */}
+            <article>
+              <h3 className="text-white tracking-wide text-xl font-bold">
+                Company
+              </h3>
+              <ul className="text-center lg:text-left">
+                <li className="text-slate-200 text-sm mt-1">About</li>
+                <li className="text-slate-200 text-sm mt-1">Our Teams</li>
+                <li className="text-slate-200 text-sm mt-1">Careers</li>
+                <li className="text-slate-200 text-sm mt-1">Contact</li>
+              </ul>
+            </article>
 
-          {/* footer icons */}
-          <article>
-            <ul className="flex items-center">
-              <li>
-                <img src={facebook} alt="facebook icon" />
-              </li>
-              <li className="ml-4">
-                <img src={twitter} alt="twitter icon" />
-              </li>
-              <li className="mx-5">
-                <img src={pinterest} alt="pinterest icon" />
-              </li>
-              <li>
-                <img src={instagram} alt="instagram icon" />
-              </li>
-            </ul>
-          </article>
+            {/* footer icons */}
+            <article>
+              <ul className="flex items-center">
+                <li>
+                  <img src={facebook} alt="facebook icon" />
+                </li>
+                <li className="ml-4">
+                  <img src={twitter} alt="twitter icon" />
+                </li>
+                <li className="mx-5">
+                  <img src={pinterest} alt="pinterest icon" />
+                </li>
+                <li>
+                  <img src={instagram} alt="instagram icon" />
+                </li>
+              </ul>
+            </article>
+          </div>
         </div>
       </footer>
     </>
