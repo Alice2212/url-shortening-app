@@ -4,7 +4,7 @@ import Logo from "../assets/images/logo.svg"
 const Header = () => {
   return (
     <div>
-      <header className="header">
+      <header className="header max-width ">
         <div>
           {/* logo */}
           <img src={Logo} alt="logo" />
