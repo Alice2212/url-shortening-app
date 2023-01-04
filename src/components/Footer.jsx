@@ -8,7 +8,7 @@ import instagram from "../assets/images/icon-instagram.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#393644]">
+      <footer className="bg-[#393644] py-10 lg:py-20">
         <div className="max-width grid grid-cols-1 gap-5">
           {/* footer logo */}
           <article>
@@ -17,45 +17,51 @@ const Footer = () => {
 
           {/* first links */}
           <article>
-            <h3>Features</h3>
+            <h3 className="text-white tracking-wide text-xl font-bold">
+              Features
+            </h3>
             <ul>
-              <li>Link Shortening</li>
-              <li>Branded Links</li>
-              <li>Analytics</li>
+              <li className="text-slate-200 text-sm mt-1">Link Shortening</li>
+              <li className="text-slate-200 text-sm mt-1">Branded Links</li>
+              <li className="text-slate-200 text-sm mt-1">Analytics</li>
             </ul>
           </article>
 
           {/* second links */}
           <article>
-            <h3>Resources</h3>
+            <h3 className="text-white tracking-wide text-xl font-bold">
+              Resources
+            </h3>
             <ul>
-              <li>Blog</li>
-              <li>Developers</li>
-              <li>Support</li>
+              <li className="text-slate-200 text-sm mt-1">Blog</li>
+              <li className="text-slate-200 text-sm mt-1">Developers</li>
+              <li className="text-slate-200 text-sm mt-1">Support</li>
             </ul>
           </article>
 
           {/* third links */}
           <article>
-            <h3>Company</h3>
+            <h3 className="text-white tracking-wide text-xl font-bold">
+              Company
+            </h3>
             <ul>
-              <li>About</li>
-              <li>Our Teams</li>
-              <li>Careers</li>
-              <li>Contact</li>
+              <li className="text-slate-200 text-sm mt-1">About</li>
+              <li className="text-slate-200 text-sm mt-1">Our Teams</li>
+              <li className="text-slate-200 text-sm mt-1">Careers</li>
+              <li className="text-slate-200 text-sm mt-1">Contact</li>
             </ul>
           </article>
 
           {/* footer icons */}
           <article>
-            <ul>
+            <ul className="flex items-center">
               <li>
                 <img src={facebook} alt="facebook icon" />
               </li>
-              <li>
+              <li className="ml-4">
                 <img src={twitter} alt="twitter icon" />
               </li>
-              <li>
+              <li className="mx-5">
                 <img src={pinterest} alt="pinterest icon" />
               </li>
               <li>
