@@ -4,7 +4,7 @@ import Logo from "../assets/images/logo.svg";
 const Header = () => {
   return (
     <div>
-      <header className="header max-width flex justify-between ">
+      <header className="header max-width flex justify-between h-24 items-center sticky">
         <div className="flex">
           {/* logo */}
           <div className="pr-12">
