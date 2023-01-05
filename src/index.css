@@ -17,8 +17,13 @@ body {
 ul,
 li {
   list-style-type: none;
+  cursor: pointer;
 }
 
 .max-width{
   @apply px-7 lg:max-w-5xl lg:mx-auto xl:max-w-6xl 2xl:px-0;
+}
+
+.btn-cta{
+  @apply bg-[#4ecccb] text-white rounded-full px-6 py-1 
 }

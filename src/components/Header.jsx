@@ -25,8 +25,8 @@ const Header = () => {
 
         <div>
           <ul className="flex">
-            <li className="pr-8">Login</li>
-            <li className="btn-signUp">Sign Up</li>
+            <li className=" mr-8">Login</li>
+            <li className="btn-cta">Sign Up</li>
           </ul>
         </div>
       </header>
