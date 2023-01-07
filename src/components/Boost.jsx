@@ -11,7 +11,7 @@ const Boost = () => {
           <img src={bgMobile} alt="" />
         </picture>
         <div className="flex items-center justify-center flex-col boost-inner">
-          <h2 className="mb-4">Boost your links today</h2>
+          <h2 className="mb-4 text-2xl">Boost your links today</h2>
           <button className="btn-cta">Get Started</button>
         </div>
       </div>
