@@ -27,3 +27,13 @@ li {
 .btn-cta{
   @apply bg-[#4ecccb] text-white rounded-full px-6 py-1 
 }
+
+.boost{
+  height: 12rem;
+  background-color:hsl(257, 27%, 26%);
+}
+
+.boost img{
+  height: 12rem; 
+  width: 100%;
+}
