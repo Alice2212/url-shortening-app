@@ -10,7 +10,7 @@ const Boost = () => {
           <source media="(min-width: 760px)" srcSet={bgDesktop} />
           <img src={bgMobile} alt="" />
         </picture>
-        <div className="flex items-center justify-center flex-col boost-inner">
+        <div className="flex items-center justify-center flex-col text-center boost-inner">
           <h2 className="mb-4 text-2xl font-bold">Boost your links today</h2>
           <button className="btn-cta">Get Started</button>
         </div>
