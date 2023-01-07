@@ -57,14 +57,14 @@ const Header = () => {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-black hover:text-indigo-200">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-[#393644] ">
+                <li className=" hover:text-[#4ecccb]">
                   <a href="javascript:void(0)">Features</a>
                 </li>
-                <li className="text-black hover:text-indigo-200">
+                <li className=" hover:text-[#4ecccb]">
                   <a href="javascript:void(0)">Pricing</a>
                 </li>
-                <li className="text-black hover:text-indigo-200">
+                <li className=" hover:text-[#4ecccb]">
                   <a href="javascript:void(0)">Resources</a>
                 </li>
               </ul>
@@ -72,7 +72,7 @@ const Header = () => {
               <div className="mt-3 space-y-2 lg:hidden md:inline-block text-center">
                 <a
                   href="javascript:void(0)"
-                  className="inline-block w-full px-4 py-2  text-black "
+                  className="inline-block w-full px-4 py-2  text-[#393644] "
                 >
                   Log In
                 </a>
@@ -86,7 +86,7 @@ const Header = () => {
             </div>
           </div>
           <div className="hidden space-x-2 md:inline-block">
-            <a href="javascript:void(0)" className="px-4 py-2 text-black">
+            <a href="javascript:void(0)" className="px-4 py-2 text-[#393644]">
               Log In
             </a>
             <a href="javascript:void(0)" className="px-4 py-2 btn-cta">
