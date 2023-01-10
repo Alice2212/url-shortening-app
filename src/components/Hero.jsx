@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "../assets/images/illustration-working.svg";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
           <button className="btn-cta">Get Started</button>
         </div>
         <div>
-          
+          <img src={heroImg} alt="hero iamge"/>
         </div>
       </section>
     </>
