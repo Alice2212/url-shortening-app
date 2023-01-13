@@ -44,3 +44,7 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.hero-img{
+  width: 90%;
+}
