@@ -4,8 +4,8 @@ import heroImg from "../assets/images/illustration-working.svg";
 const Hero = () => {
   return (
     <>
-      <section>
-        <div>
+      <section className="max-width flex ">
+        <div className="">
           <h1>MORE THAN JUST SHORTHER LINKS</h1>
           <p>
             Build your brand's recognition and get detailed insights on how your
