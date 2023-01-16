@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react' 
+import brandImg from "../assets/images/icon-brand-recognition.svg";
+import detailImg from "../assets/images/icon-detailed-records.svg";
+import customizableImg from "../assets/images/icon-fully-customizable.svg";
 
 const Advance = () => {
   return (
