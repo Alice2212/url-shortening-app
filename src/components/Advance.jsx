@@ -17,7 +17,28 @@ const Advance = () => {
             </p>
           </div>
           {/* advance cards */}
-          <div></div>
+          <div>
+          {/* card one */}
+            <div>
+              <img src={brandImg} alt="brand image"/>
+              <h2>Brand Recognition</h2>
+              <p>Build your brand recognition with each click. Generic links don't mean a thing. Branded links helps instill confidence in your content</p>
+            </div>
+          </div>
+ 
+          {/* card two */}
+          <div>
+            <img src={detailImg} alt="detail image"  />
+            <h2>
+              Detailed Record
+            </h2>
+            <p>Gain insight into who is clicking your links. knowing when and where people engage with your content helps inform better decisions.</p>
+          </div>
+
+          {/* card three */}
+          <div>
+            <img src={customizableImg} alt="customizable image" />
+          </div>
         </div>
       </section>
     </>
