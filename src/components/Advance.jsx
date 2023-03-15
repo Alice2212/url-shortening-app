@@ -17,9 +17,12 @@ const Advance = () => {
             </p>
           </div>
           {/* advance cards */}
-          <div className="grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="relative cards grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3">
+
+            {/* line break */}
+            <div className="line"></div>
             {/* card one */}
-            <div className="bg-white p-5 rounded">
+            <div className="relative bg-white p-5 rounded">
               <img
                 src={brandImg}
                 alt="brand image"
@@ -36,7 +39,7 @@ const Advance = () => {
             </div>
 
             {/* card two */}
-            <div className="bg-white p-5 rounded">
+            <div className="relative bg-white p-5 rounded">
               <img
                 src={detailImg}
                 alt="detail image"
