@@ -7,17 +7,17 @@ const Advance = () => {
   return (
     <>
       <section className="bg-slate-200 lg:py-20">
-        <div className="max-width py-16">
+        <div className="max-width">
           {/* advance title */}
           <div className="text-center">
             <h2 className="text-bold text-3xl">Advanced Statistics</h2>
-            <p className=" text-slate-400 mb-3">
-              Track how your links are performing across the web and with our
-              advance Statistics board
+            <p className=" text-slate-400 mb-10 lg:mb-20 ">
+              Track how your links are performing across the web and with <br/> our
+              advance Statistics board 
             </p>
           </div>
           {/* advance cards */}
-          <div className="mt-20">
+          <div className="grid">
             {/* card one */}
             <div className="bg-white p-5 rounded">
               <img
