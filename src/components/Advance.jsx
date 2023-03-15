@@ -6,7 +6,7 @@ import customizableImg from "../assets/images/icon-fully-customizable.svg";
 const Advance = () => {
   return (
     <>
-      <section className="advance-wrapper bg-slate-200">
+      <section className="bg-slate-200 lg:py-20">
         <div className="max-width py-16">
           {/* advance title */}
           <div className="text-center">
@@ -20,7 +20,11 @@ const Advance = () => {
           <div className="mt-20">
             {/* card one */}
             <div className="bg-white p-5 rounded">
-              <img src={brandImg} alt="brand image" />
+              <img
+                src={brandImg}
+                alt="brand image"
+                className="bg-indigo-900 p-2 rounded-full"
+              />
               <h3 className="text-slate-800 text-bold mb-3 font-bold">
                 Brand Recognition
               </h3>
@@ -34,7 +38,11 @@ const Advance = () => {
 
           {/* card two */}
           <div className="bg-white p-5 rounded">
-            <img src={detailImg} alt="detail image" />
+            <img
+              src={detailImg}
+              alt="detail image"
+              className="bg-indigo-900 p-2 rounded-full"
+            />
             <h3 className="text-slate-800 text-bold mb-3 font-bold">
               Detailed Record
             </h3>
@@ -47,7 +55,11 @@ const Advance = () => {
 
           {/* card three */}
           <div className="bg-white p-5 rounded">
-            <img src={customizableImg} alt="customizable image" />
+            <img
+              src={customizableImg}
+              alt="customizable image"
+              className="bg-indigo-900 p-2 rounded-full"
+            />
             <h3 className="text-slate-800 text-bold mb-3 font-bold">
               Fully customizable
             </h3>
