@@ -55,19 +55,20 @@ li {
 
 .shortner {
   background-color: hsl(257, 27%, 26%);
-  height: 13rem;
-  border-radius: 8 px;
+  height: 12rem;
+  border-radius: 8px;
 }
 
 .shortner img {
-  height: 13rem;
+  height: 12rem;
   @apply w-full rounded-lg;
 }
 
 .shortner form {
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translate(-50% -50%);
+  margin: auto;
 }
 
 @media (min-width: 1024px) {
@@ -84,14 +85,25 @@ li {
     top: 50%;
   }
 
+  .shortner form {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50% -50%)
+}
+
+ .shortner form input{
+  max-width: 90%;
+ }
+
   .shortner {
     background-color: hsl(257, 27%, 26%);
-    height: 7rem;
+    height: 10rem;
     border-radius: 8 px;
   }
 
   .shortner img {
-    height: 7rem;
+    height: 10rem;
     @apply w-full rounded-lg;
   }
 }

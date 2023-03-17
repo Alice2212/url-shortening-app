@@ -2,6 +2,8 @@ import React from "react";
 import shortnerMobile from "../assets/images/bg-shorten-mobile.svg";
 import shortnerDesktop from "../assets/images/bg-shorten-desktop.svg";
 
+// https://api.shrtco.de/v2/shorten?url=
+
 function Shortner() {
   return (
     <>
@@ -12,14 +14,14 @@ function Shortner() {
         </picture>
 
         {/* form */}
-        <form>
-          <div className="flex flex-wrap gap-2 ">
+        <form className="form m-auto">
+          <div className="flex flex-col md:flex-row gap-2 m-auto">
             <input
               type="url"
               placeholder="Shorten a link here.."
-              className="px-5 py-2 rounded-lg "
+              className="w-full px-5 py-2 rounded-lg mb-2 md:mb-0"
             />
-            <button className=" bg-[#4ecccb] rounded-md px-4 py-2 text-white font-bold">
+            <button className=" bg-[#4ecccb] rounded-md px-4 py-2 text-white font-bold w-full md:w-auto">
               Shorten It!
             </button>
           </div>
