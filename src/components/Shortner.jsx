@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import shortnerMobile from "../assets/images/bg-shorten-mobile.svg";
 import shortnerDesktop from "../assets/images/bg-shorten-desktop.svg";
 
 // https://api.shrtco.de/v2/shorten?url=
 
 function Shortner() {
+
+  const [text, setText] = useState(" ")
   return (
     <>
       <section className="max-width shortner relative ">
