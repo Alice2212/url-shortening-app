@@ -1,12 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import shortnerMobile from "../assets/images/bg-shorten-mobile.svg";
 import shortnerDesktop from "../assets/images/bg-shorten-desktop.svg";
 
 // https://api.shrtco.de/v2/shorten?url=
 
 function Shortner() {
-
-  const [text, setText] = useState(" ")
+  const [text, setText] = useState("   ");
   return (
     <>
       <section className="max-width shortner relative ">
@@ -22,6 +21,8 @@ function Shortner() {
               type="url"
               placeholder="Shorten a link here.."
               className="w-full px-5 py-2 rounded-lg mb-2 md:mb-0"
+              value={text}
+              onChange={(e) => setText(e.target.value)} 
             />
             <button className=" bg-[#4ecccb] rounded-md px-4 py-2 text-white font-bold w-full md:w-auto">
               Shorten It!
