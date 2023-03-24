@@ -2,16 +2,27 @@ import React, { useState } from "react";
 import shortnerMobile from "../assets/images/bg-shorten-mobile.svg";
 import shortnerDesktop from "../assets/images/bg-shorten-desktop.svg";
 
-// https://api.shrtco.de/v2/shorten?url=
+//
 
 function Shortner() {
-  // declear useState
+  // declare useState
   const [text, setText] = useState("  ");
 
   // handle submit
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
-  }
+
+    // if (!text) {
+    //   alert("Input is empty");
+    // }else{
+    const shorten = async () => {
+      const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${text}`);
+      const data = await res.json();
+      console.log(data);
+      // }
+      shorten();
+    };
+  };
 
   return (
     <>
@@ -30,9 +41,13 @@ function Shortner() {
               className="w-full px-5 py-2 rounded-lg mb-2 md:mb-0"
               value={text}
               onChange={(e) => setText(e.target.value)}
+              required
             />
-            <button className=" bg-[#4ecccb] rounded-md px-4 py-2 text-white font-bold w-full md:w-auto">
-              Shorten It! onClick = {handleSubmit}
+            <button
+              className=" bg-[#4ecccb] rounded-md px-4 py-2 text-white font-bold w-full md:w-auto"
+              onClick={handleSubmit}
+            >
+              Shorten It!
             </button>
           </div>
         </form>
