@@ -6,7 +6,7 @@ import customizableImg from "../assets/images/icon-fully-customizable.svg";
 const Advance = () => {
   return (
     <>
-      <section className="bg-slate-200 lg:py-20">
+      <section className="bg-slate-200 lg:pb-20 lg:pt-28 ">
         <div className="max-width py-12 lg:py-2">
           {/* advance title */}
           <div className="text-center">
@@ -18,7 +18,6 @@ const Advance = () => {
           </div>
           {/* advance cards */}
           <div className="relative cards grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-3">
-
             {/* line break */}
             <div className="line"></div>
             {/* card one */}

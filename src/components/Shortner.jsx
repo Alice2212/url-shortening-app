@@ -26,9 +26,9 @@ function Shortner() {
 
   return (
     <>
-      <section className="max-width shortner relative ">
-        <picture>
-          <source media="(min-width:780px) " srcSet={shortnerDesktop} />
+      <section className=" shortner absolute left-6 lg:left-[7.5rem] -mt-14">
+        <picture className="">
+          <source media="(min-width:780px) " srcSet={shortnerDesktop} className=""/>
           <img src={shortnerMobile} alt="" />
         </picture>
 
