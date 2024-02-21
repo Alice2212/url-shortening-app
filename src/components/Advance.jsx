@@ -6,7 +6,7 @@ import customizableImg from "../assets/images/icon-fully-customizable.svg";
 const Advance = () => {
   return (
     <>
-      <section className="bg-slate-200 lg:pb-20 lg:pt-28 ">
+      <section className="bg-slate-200 lg:pb-20 lg:pt-28 pt-24 ">
         <div className="max-width py-12 lg:py-2">
           {/* advance title */}
           <div className="text-center">
